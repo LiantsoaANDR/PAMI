@@ -9,16 +9,16 @@
 #define I2C_SCL 0
 
 // Nombre de capteurs
-#define SENSOR_COUNT 3
+#define SENSOR_COUNT 4
 
 // Broches XSHUT pour chaque capteur
-const uint8_t XSHUT_PINS[SENSOR_COUNT] = {5, 6, 7};
+const uint8_t XSHUT_PINS[SENSOR_COUNT] = {5, 6, 7, 8};
 
 // Adresses I2C uniques à assigner (différentes de 0x29)
-const uint8_t SENSOR_ADDRESSES[SENSOR_COUNT] = {0x30, 0x31, 0x32};
+const uint8_t SENSOR_ADDRESSES[SENSOR_COUNT] = {0x30, 0x31, 0x32, 0x33};
 
 // Noms affichés dans le moniteur série
-const char* SENSOR_NAMES[SENSOR_COUNT] = {"Capteur 1", "Capteur 2", "Capteur 3"};
+const char* SENSOR_NAMES[SENSOR_COUNT] = {"Capteur 1", "Capteur 2", "Capteur 3", "Capteur 4"};
 
 // Timeout de lecture en ms (0 = désactivé)
 #define SENSOR_TIMEOUT_MS 500
