@@ -32,8 +32,8 @@
 
 // ─── CONFIGURATION ────────────────────────────────────────────────────────────
 
-#define I2C_SDA  8
-#define I2C_SCL  9
+#define I2C_SDA  4
+#define I2C_SCL  0
 
 #define SENSOR_COUNT 4
 
